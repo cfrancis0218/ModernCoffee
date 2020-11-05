@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532365E725538C2400F62258 /* CoffeeUnderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365E625538C2400F62258 /* CoffeeUnderView.swift */; };
+		532365EA25538DB200F62258 /* AccountButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365E925538DB200F62258 /* AccountButton.swift */; };
+		532365ED25538DC500F62258 /* FlavourButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365EC25538DC500F62258 /* FlavourButton.swift */; };
+		532365F025538DDB00F62258 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365EF25538DDB00F62258 /* MenuButton.swift */; };
+		532365F3255390AD00F62258 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365F2255390AD00F62258 /* TitleLabel.swift */; };
+		535B6236255424880038B637 /* AccountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B6235255424880038B637 /* AccountLabel.swift */; };
+		535B62392554249C0038B637 /* FlavourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B62382554249C0038B637 /* FlavourLabel.swift */; };
+		535B623C255424B70038B637 /* MenuBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B623B255424B70038B637 /* MenuBackButton.swift */; };
+		535B623F25542A5D0038B637 /* OrderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B623E25542A5D0038B637 /* OrderScreen.swift */; };
 		53CB8B0A25537EE800366316 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB8B0925537EE800366316 /* AppDelegate.swift */; };
 		53CB8B0C25537EE800366316 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB8B0B25537EE800366316 /* SceneDelegate.swift */; };
-		53CB8B0E25537EE800366316 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB8B0D25537EE800366316 /* ViewController.swift */; };
-		53CB8B1125537EE800366316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CB8B0F25537EE800366316 /* Main.storyboard */; };
+		53CB8B0E25537EE800366316 /* ModernCoffeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CB8B0D25537EE800366316 /* ModernCoffeeVC.swift */; };
 		53CB8B1325537EE800366316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CB8B1225537EE800366316 /* Assets.xcassets */; };
 		53CB8B1625537EE800366316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53CB8B1425537EE800366316 /* LaunchScreen.storyboard */; };
+		53CC0B372553856C00AA5FD5 /* ModernCoffee+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC0B362553856C00AA5FD5 /* ModernCoffee+Style.swift */; };
+		53CC0B3F2553879300AA5FD5 /* CoffeeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CC0B3E2553879300AA5FD5 /* CoffeeImageView.swift */; };
+		53F109252553913C00EF1B01 /* SubTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F109242553913C00EF1B01 /* SubTitleLabel.swift */; };
+		53F109282553946700EF1B01 /* MenuV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F109272553946700EF1B01 /* MenuV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		532365E625538C2400F62258 /* CoffeeUnderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUnderView.swift; sourceTree = "<group>"; };
+		532365E925538DB200F62258 /* AccountButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountButton.swift; sourceTree = "<group>"; };
+		532365EC25538DC500F62258 /* FlavourButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavourButton.swift; sourceTree = "<group>"; };
+		532365EF25538DDB00F62258 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		532365F2255390AD00F62258 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		535B6235255424880038B637 /* AccountLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLabel.swift; sourceTree = "<group>"; };
+		535B62382554249C0038B637 /* FlavourLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavourLabel.swift; sourceTree = "<group>"; };
+		535B623B255424B70038B637 /* MenuBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackButton.swift; sourceTree = "<group>"; };
+		535B623E25542A5D0038B637 /* OrderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderScreen.swift; sourceTree = "<group>"; };
 		53CB8B0625537EE800366316 /* ModernCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModernCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CB8B0925537EE800366316 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53CB8B0B25537EE800366316 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53CB8B0D25537EE800366316 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53CB8B1025537EE800366316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53CB8B0D25537EE800366316 /* ModernCoffeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernCoffeeVC.swift; sourceTree = "<group>"; };
 		53CB8B1225537EE800366316 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CB8B1525537EE800366316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53CB8B1725537EE800366316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53CC0B362553856C00AA5FD5 /* ModernCoffee+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModernCoffee+Style.swift"; sourceTree = "<group>"; };
+		53CC0B3E2553879300AA5FD5 /* CoffeeImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeImageView.swift; sourceTree = "<group>"; };
+		53F109242553913C00EF1B01 /* SubTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitleLabel.swift; sourceTree = "<group>"; };
+		53F109272553946700EF1B01 /* MenuV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,107 @@
 		53CB8B0825537EE800366316 /* ModernCoffee */ = {
 			isa = PBXGroup;
 			children = (
-				53CB8B0925537EE800366316 /* AppDelegate.swift */,
-				53CB8B0B25537EE800366316 /* SceneDelegate.swift */,
-				53CB8B0D25537EE800366316 /* ViewController.swift */,
-				53CB8B0F25537EE800366316 /* Main.storyboard */,
-				53CB8B1225537EE800366316 /* Assets.xcassets */,
+				53CC0B2E255384BC00AA5FD5 /* Components */,
+				53CC0B2C2553849B00AA5FD5 /* Screens */,
+				53CC0B2B2553849400AA5FD5 /* Assets */,
+				53CB8B1F25537F0A00366316 /* App+SceneDelegate */,
 				53CB8B1425537EE800366316 /* LaunchScreen.storyboard */,
 				53CB8B1725537EE800366316 /* Info.plist */,
 			);
 			path = ModernCoffee;
+			sourceTree = "<group>";
+		};
+		53CB8B1F25537F0A00366316 /* App+SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				53CB8B0925537EE800366316 /* AppDelegate.swift */,
+				53CB8B0B25537EE800366316 /* SceneDelegate.swift */,
+			);
+			path = "App+SceneDelegate";
+			sourceTree = "<group>";
+		};
+		53CC0B2B2553849400AA5FD5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				53CB8B1225537EE800366316 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		53CC0B2C2553849B00AA5FD5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				53CB8B0D25537EE800366316 /* ModernCoffeeVC.swift */,
+				53F109272553946700EF1B01 /* MenuV.swift */,
+				535B623E25542A5D0038B637 /* OrderScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		53CC0B2E255384BC00AA5FD5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				53CC0B352553851D00AA5FD5 /* Styling */,
+				53CC0B34255384E000AA5FD5 /* Counter */,
+				53CC0B33255384DB00AA5FD5 /* Images */,
+				53CC0B32255384D500AA5FD5 /* Views */,
+				53CC0B31255384D000AA5FD5 /* Buttons */,
+				53CC0B2F255384C300AA5FD5 /* Labels */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		53CC0B2F255384C300AA5FD5 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				532365F2255390AD00F62258 /* TitleLabel.swift */,
+				53F109242553913C00EF1B01 /* SubTitleLabel.swift */,
+				535B6235255424880038B637 /* AccountLabel.swift */,
+				535B62382554249C0038B637 /* FlavourLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		53CC0B31255384D000AA5FD5 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				532365E925538DB200F62258 /* AccountButton.swift */,
+				532365EC25538DC500F62258 /* FlavourButton.swift */,
+				532365EF25538DDB00F62258 /* MenuButton.swift */,
+				535B623B255424B70038B637 /* MenuBackButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		53CC0B32255384D500AA5FD5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				532365E625538C2400F62258 /* CoffeeUnderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		53CC0B33255384DB00AA5FD5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				53CC0B3E2553879300AA5FD5 /* CoffeeImageView.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		53CC0B34255384E000AA5FD5 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		53CC0B352553851D00AA5FD5 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				53CC0B362553856C00AA5FD5 /* ModernCoffee+Style.swift */,
+			);
+			path = Styling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +242,6 @@
 			files = (
 				53CB8B1625537EE800366316 /* LaunchScreen.storyboard in Resources */,
 				53CB8B1325537EE800366316 /* Assets.xcassets in Resources */,
-				53CB8B1125537EE800366316 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +252,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53CB8B0E25537EE800366316 /* ViewController.swift in Sources */,
+				53CC0B372553856C00AA5FD5 /* ModernCoffee+Style.swift in Sources */,
+				532365ED25538DC500F62258 /* FlavourButton.swift in Sources */,
+				53CC0B3F2553879300AA5FD5 /* CoffeeImageView.swift in Sources */,
+				532365F3255390AD00F62258 /* TitleLabel.swift in Sources */,
+				535B62392554249C0038B637 /* FlavourLabel.swift in Sources */,
+				53CB8B0E25537EE800366316 /* ModernCoffeeVC.swift in Sources */,
+				535B623C255424B70038B637 /* MenuBackButton.swift in Sources */,
+				535B6236255424880038B637 /* AccountLabel.swift in Sources */,
+				535B623F25542A5D0038B637 /* OrderScreen.swift in Sources */,
+				53F109282553946700EF1B01 /* MenuV.swift in Sources */,
 				53CB8B0A25537EE800366316 /* AppDelegate.swift in Sources */,
+				532365F025538DDB00F62258 /* MenuButton.swift in Sources */,
 				53CB8B0C25537EE800366316 /* SceneDelegate.swift in Sources */,
+				53F109252553913C00EF1B01 /* SubTitleLabel.swift in Sources */,
+				532365E725538C2400F62258 /* CoffeeUnderView.swift in Sources */,
+				532365EA25538DB200F62258 /* AccountButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		53CB8B0F25537EE800366316 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53CB8B1025537EE800366316 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		53CB8B1425537EE800366316 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.francis.christian.ModernCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.francis.christian.ModernCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
