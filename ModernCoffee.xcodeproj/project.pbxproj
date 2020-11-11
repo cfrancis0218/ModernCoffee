@@ -12,6 +12,7 @@
 		532365ED25538DC500F62258 /* FlavourButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365EC25538DC500F62258 /* FlavourButton.swift */; };
 		532365F025538DDB00F62258 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365EF25538DDB00F62258 /* MenuButton.swift */; };
 		532365F3255390AD00F62258 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532365F2255390AD00F62258 /* TitleLabel.swift */; };
+		532BF93025545493008E8BFA /* AmountStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532BF92F25545493008E8BFA /* AmountStepper.swift */; };
 		535B6236255424880038B637 /* AccountLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B6235255424880038B637 /* AccountLabel.swift */; };
 		535B62392554249C0038B637 /* FlavourLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B62382554249C0038B637 /* FlavourLabel.swift */; };
 		535B623C255424B70038B637 /* MenuBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535B623B255424B70038B637 /* MenuBackButton.swift */; };
@@ -33,6 +34,7 @@
 		532365EC25538DC500F62258 /* FlavourButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavourButton.swift; sourceTree = "<group>"; };
 		532365EF25538DDB00F62258 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
 		532365F2255390AD00F62258 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		532BF92F25545493008E8BFA /* AmountStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountStepper.swift; sourceTree = "<group>"; };
 		535B6235255424880038B637 /* AccountLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountLabel.swift; sourceTree = "<group>"; };
 		535B62382554249C0038B637 /* FlavourLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlavourLabel.swift; sourceTree = "<group>"; };
 		535B623B255424B70038B637 /* MenuBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBackButton.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 		53CC0B34255384E000AA5FD5 /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				532BF92F25545493008E8BFA /* AmountStepper.swift */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53CC0B372553856C00AA5FD5 /* ModernCoffee+Style.swift in Sources */,
+				532BF93025545493008E8BFA /* AmountStepper.swift in Sources */,
 				532365ED25538DC500F62258 /* FlavourButton.swift in Sources */,
 				53CC0B3F2553879300AA5FD5 /* CoffeeImageView.swift in Sources */,
 				532365F3255390AD00F62258 /* TitleLabel.swift in Sources */,

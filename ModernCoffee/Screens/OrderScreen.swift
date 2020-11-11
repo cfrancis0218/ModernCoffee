@@ -8,11 +8,13 @@
 import UIKit
 
 class OrderScreen: UIViewController {
+    
+    let aStepper = AmountStepper()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view.addSubview(aStepper)
     }
     
 

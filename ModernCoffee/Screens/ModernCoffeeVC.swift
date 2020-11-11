@@ -39,7 +39,8 @@ class ModernCoffeeVC: UIViewController {
     
     @objc func openMenu() {
         menuView.isHidden = false
-        
+        titleLabel.isHidden = true
+        subTitleLabel.isHidden = true
         
         UIView.animate(withDuration: 0.5, delay: 0.1, options: .curveEaseIn, animations: ({
             self.menuView.alpha = 1.0
@@ -52,9 +53,9 @@ class ModernCoffeeVC: UIViewController {
         view.addSubview(coffeeView)
         view.addSubview(coffeeImage)
         view.addSubview(menuButton)
-        view.addSubview(menuView)
         view.addSubview(titleLabel)
         view.addSubview(subTitleLabel)
+        view.addSubview(menuView)
         coffeeImage.translatesAutoresizingMaskIntoConstraints = false
         coffeeView.translatesAutoresizingMaskIntoConstraints = false
         menuButton.translatesAutoresizingMaskIntoConstraints = false
